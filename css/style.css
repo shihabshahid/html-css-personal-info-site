@@ -1,0 +1,74 @@
+body
+{
+	font-family:cursive;
+}
+#header
+{
+	width:100%;
+}
+#headerLeft
+{
+	float:left;
+	width:30%;
+}
+#headerRight
+{
+	width:60%;
+	float:left;
+	font-size: 25px;
+	margin-left: 80px;
+}
+#menu
+{
+	width:100%;
+
+	clear:both;
+}
+#content
+{
+	width:100%;
+	margin-top: 110px;
+}
+#contentLeft
+{
+	width:20%;
+	float: left;
+}
+#contentMiddle
+{
+	width:60%;
+	float: left;
+}
+#contentRight
+{
+	width:20%;
+	float: right;
+}
+#footer
+{
+	width:100%;
+	clear:both;
+	background-color:STEELBLUE;
+	height:50px;
+}
+#menu  ul{
+	padding:0;
+	list-style:none;
+}
+#menu ul li{
+	float:left;
+	width:145px;
+	text-align:center;
+}
+#menu ul li a{
+	display:block;
+	padding:15px 40px;
+	color:white;
+	background:STEELBLUE;
+	text-decoration: none;
+	opacity:.5s;
+}
+#menu ul li a:hover{
+	color:STEELBLUE;
+	background:LIGHTSTEELBLUE;
+}
